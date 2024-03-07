@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio ONE- Encriptador de Texto</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img  class="logo" src="./assets/Frame 6.png" alt="Alura Logo" />
+    </header>
+    <main>
+      <section class=".content__container">
+        <textarea
+          class="text-area"
+          cols="41"
+          rows="6"
+          placeholder="Digite seu texto"
+        ></textarea>
+
+        <div>
+          <div>
+            <img src="./assets/Vector.png" alt="" />
+            <span
+              >Apenas letras minúsculas e sem acento.</span
+            >
+          </div>
+          <div class=>
+            <button type="button" class="btn-cripto" onclick="changeView ()">
+              Criptografar
+            </button>
+            <button type="button" class="btn-desripto" onclick="changeViewer()">Descriptografar</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <textarea class="listagem" cols="20" rows="10"></textarea>
+        <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__content">
+        <h4>Desenvolvido por Naom Ricardo Em:03/24.</h4>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
